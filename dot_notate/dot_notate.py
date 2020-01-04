@@ -6,13 +6,3 @@ def dot_notate(obj, res, currentKey):
         else:
             res[newKey] = v
     return res
-
-
-def dict_dot_notate(obj):
-    if isinstance(obj, dict):
-        return dot_notate(obj, {}, currentKey=None)
-    raise TypeError("Function dict_dot_notate expects a dictionary")
-
-
-
-
