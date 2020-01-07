@@ -3,7 +3,6 @@ from dot_notate.dot import dict_dot_notate
 from tests.test_data import test_data1,test_data1_results, test_data_with_array,test_data_with_array_result
 
 
-
 class DotTest(TestCase):
     def test_convert_dictionary_to_dot_notation_succeds(self):
         """Test that the a nested dictionary produces a dot notation format in a new dictionary"""
@@ -13,5 +12,11 @@ class DotTest(TestCase):
     def test_converts_dictionary_with_array_type_on_one_key(self):
         results=dict_dot_notate(test_data_with_array)
         self.assertEqual(results,test_data_with_array_result)
+        
+    def test_cannot_convert_non_dict_data_type(self):
+        """Raises a TypeError when a data type othe than a dictionary is passed into the function"""
+        with self.assertRaises(TypeError) as e:
+            dict_dot_notate("string")
+        
         
         
