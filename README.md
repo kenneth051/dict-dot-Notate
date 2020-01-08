@@ -27,10 +27,8 @@ call the relevant method to convert our dict
 
         result = dict_dot_notate(data)
 
-
 output
 
-            print(result)
 
       {
         'obj': 'obj',
@@ -57,8 +55,6 @@ conversion
     result = dict_dot_notate(data)
 
 output
-          
-    print(result)
 
     {
     'obj': 'obj',
