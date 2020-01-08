@@ -4,13 +4,13 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
+    name="dict_dot_notate", 
     version="0.0.1",
     author="Ddumba Kenneth",
     author_email="kjdumba@gmail.com",
-    description="A small example package",
-    long_description=long_description,
-    long_description_content_type="text/markdown",
+    description="Turns nested dictionary keys to dotted strings with their corresponding values into a basic dictionary",
+    long_description=README,
+    long_description_content_type='text/markdown',
     url="https://github.com/kenneth051/dict-dot-notate",
     packages=[
         "dot_notate"
