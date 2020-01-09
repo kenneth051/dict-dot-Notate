@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="dict-dot-notate", 
-    version="0.0.3",
+    version="0.0.1",
     author="Ddumba Kenneth",
     author_email="kjdumba@gmail.com",
     description="Turns nested dictionary keys to dotted strings with their corresponding values into a basic dictionary",
@@ -22,5 +22,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3',
 )
