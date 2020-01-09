@@ -5,12 +5,13 @@ with open("README.md", "r") as fh:
 
 setup(
     name="dict-dot-notate", 
-    version="0.0.2",
+    version="0.0.3",
     author="Ddumba Kenneth",
     author_email="kjdumba@gmail.com",
     description="Turns nested dictionary keys to dotted strings with their corresponding values into a basic dictionary",
     long_description=long_description,
     long_description_content_type='text/markdown',
+    keywords="dict notate dictdot dot",
     url="https://github.com/kenneth051/dict-dot-notate",
     packages=[
         "dot_notate"
