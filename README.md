@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kenneth051/dict-dot-notate.svg?branch=develop)](https://travis-ci.org/kenneth051/dict-dot-notate)
+[![Build Status](https://travis-ci.org/kenneth051/dict-dot-notate.svg?branch=develop)](https://travis-ci.org/kenneth051/dict-dot-notate) [![Coverage Status](https://coveralls.io/repos/github/kenneth051/dict-dot-notate/badge.svg?branch=add-badge)](https://coveralls.io/github/kenneth051/dict-dot-notate?branch=add-badge)
 
 # dict_dot_notate
 
