@@ -8,7 +8,7 @@ Installation
             
 Usage
 
-    from dot import dict_dot_notate
+    from dot_notate.dot import dict_dot_notate
 
 Example
 
