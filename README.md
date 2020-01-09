@@ -4,7 +4,7 @@ dict_dot_notate turns nested dictionary keys to dotted strings with their corres
 
 Installation
 
-    pip install dict_dot_notate
+    pip install dict-dot-notate
             
 Usage
 
@@ -42,7 +42,7 @@ output
 
 Example
 
-    data={
+    data = {
     "obj": "obj",
     "nested_once": {"first": "first"},
     "nested_twice": {
