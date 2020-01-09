@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kenneth051/dict-dot-notate.svg?branch=develop)](https://travis-ci.org/kenneth051/dict-dot-notate)
+
 # dict_dot_notate
 
 dict_dot_notate turns nested dictionary keys to dotted strings with their corresponding values into a basic dictionary. 
