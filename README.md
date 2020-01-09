@@ -23,7 +23,7 @@ Example
     "nested_thrice": {
         "thrice": {"second_nest": {"tripple_nest": {"tripple": "thrice"}, "three": "three"}}
     }
-}
+    }
 
 call the relevant method to convert our dict 
 
@@ -50,7 +50,7 @@ Example
     "nested_twice": {
         "twice": {"inner_nest": [1, 2, 3, 4, 5]}
     }
-}
+    }
     
 conversion
 
@@ -62,7 +62,7 @@ output
     'obj': 'obj',
     'nested_once.first': 'first',
     'nested_twice.twice.inner_nest': [1, 2, 3, 4, 5]
-}
+    }
 
 
 **Don't pass in a list of dictionaries.**
